@@ -17,7 +17,7 @@
 <div class="container">
     <h1>Laravel Ajax CRUD using Datatable By Masud Rana</h1>
     <a class="btn btn-success" href="javascript:void(0)" id="createNewProduct"> Create New Product</a>
-    <table class="table table-bordered data-table">
+    <table class="table table-bordered  data-table">
         <thead>
             <tr>
                 <th>No</th>
