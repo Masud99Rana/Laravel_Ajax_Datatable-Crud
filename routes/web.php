@@ -16,4 +16,11 @@ Route::get('/', function () {
 });
 
 
+// http://prntscr.com/nr1is4
 Route::resource('ajaxproducts','ProductAjaxController');
+
+
+// http://prntscr.com/nr1hiz
+Route::resource('ajax-crud', 'AjaxCrudController');
+Route::post('ajax-crud/update', 'AjaxCrudController@update')->name('ajax-crud.update');
+Route::get('ajax-crud/destroy/{id}', 'AjaxCrudController@destroy');
